@@ -17,6 +17,7 @@
 
   <section id="products">
     <!-- Product listing goes here -->
+    <?php displayProducts(); ?>
   </section>
 
   <div id="cart-modal" class="modal">
@@ -28,10 +29,10 @@
       </ul>
     </div>
   </div>
-<!--  <form id="order-form" method="post" action="index.php" style="display: none;">
+  <form id="order-form" method="post" action="index.php" style="display: none;">
     <input type="hidden" id="product-name-input" name="product_name">
     <input type="hidden" id="quantity-input" name="quantity">
-  </form> -->
+  </form>
   <footer>
     <p>&copy; 2023 Unique Kitchenware. All rights reserved.</p>
 </footer>

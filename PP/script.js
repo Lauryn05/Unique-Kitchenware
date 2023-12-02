@@ -37,6 +37,13 @@ function addToCart(productId) {
   cartItems.appendChild(listItem);
 }
 
+// Update the hidden form inputs for order submission
+//document.getElementById('product-name-input').value = productName;
+//document.getElementById('quantity-input').value = quantity;
+
+// Submit the form to insert the order into the database
+//document.getElementById('order-form').submit();
+
 function openCart() {
   document.getElementById('cart-modal').style.display = 'block';
 }
