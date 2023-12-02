@@ -1,0 +1,133 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FAF3F0;
+  text-align: center;
+}
+
+header {
+  background-color: #FFCACC;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+h2 {
+  text-align: centre;
+  margin-bottom: 20px;
+  color: black;
+  padding: 15px;
+}
+
+.sticker {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  align-self: right;
+}
+
+#cart {
+  float: right;
+  margin-top: -5px;
+}
+
+button {
+  cursor: pointer;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  text-align: center;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 60px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+#team {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.member {
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #FAF3F0;
+  border-radius: 5px;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #BB9CC0;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles2.css">
+  <title>Unique Kitchenware</title>
+</head>
+<body>
+  <header>
+    <h1>UNIQUE KITCHENSHOP</h1>
+    <div id="cart">
+      <span id="cart-count">0</span>
+      <button onclick="openCart()">Open Cart</button>
+    </div>
+  </header>
+
+  <section id="products">
+    <!-- Product listing goes here -->
+  </section>
+
+  <div id="cart-modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeCart()">&times;</span>
+      <h2>Shopping Cart</h2>
+      <ul id="cart-items">
+        <!-- Cart items go here -->
+      </ul>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2023 Unique Kitchenware. All rights reserved.</p>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>
